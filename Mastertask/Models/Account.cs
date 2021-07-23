@@ -9,5 +9,7 @@ namespace Mastertask.Models
         public string Name { get; set; }
         public string Email { get; set; }
         public string Picture { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; }
     }
 }

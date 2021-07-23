@@ -42,6 +42,10 @@ namespace Mastertask
             
             services.AddScoped<AccountsRepository>();
             services.AddScoped<AccountService>();
+            services.AddScoped<ListsRepository>();
+            services.AddScoped<ListsService>();
+            services.AddScoped<TasksRepository>();
+            services.AddScoped<TasksService>();
         }
 
         private void ConfigureCors(IServiceCollection services)
